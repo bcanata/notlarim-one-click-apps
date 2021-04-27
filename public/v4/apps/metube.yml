@@ -4,7 +4,7 @@ services:
         image: alexta69/metube:$$cap_version
         volumes:
             - '$$cap_appname-data:/downloads'
-        user: "1001:1001"
+        user: '1001:1001'
         caproverExtra:
             containerHttpPort: '8081'
 caproverOneClickApp:
